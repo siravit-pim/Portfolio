@@ -1,2 +1,2 @@
 # Second_Brain
-Store file
+My storage for permanence knowledge
