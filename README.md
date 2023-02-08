@@ -1,4 +1,4 @@
-# Second_Brain
+# Second Brain
 My storage for permanence knowledge
 
 ## Python
