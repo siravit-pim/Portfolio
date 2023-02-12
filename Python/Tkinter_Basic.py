@@ -9,7 +9,7 @@ except ImportError:
 root = tk.Tk()
 
 # title windows
-root.title('Welcome to Calculator Area Cycle')
+root.title('Welcome to Calculator Area')
 
 # setting window size
 root.geometry('250x100')
@@ -24,19 +24,19 @@ e1.grid(row=1, column=1)
 e2 = tk.Entry()
 e2.grid(row=2, column=1)
 
-# create button
-button = tk.Button(root, text='Calculate !',command=area_cal).grid(row=4, column=1)
-
 # label result
 result = Label(root, text='')
 result.grid(row=3, column=1)
 
 # --------------------------------
-def area_cal():
+def areaCal():
     #global result
     width = int(e1.get())
     height = int(e2.get())
     area = width * height
     result.config(text=area)
+
+# create button
+button = tk.Button(root, text='Calculate !',command=areaCal).grid(row=4, column=1)
 
 root.mainloop()
