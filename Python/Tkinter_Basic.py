@@ -1,3 +1,5 @@
+## Calculate_Area
+
 import tkinter as tk #python3
 try:
     from Tkinter import * #maybe python2
@@ -23,14 +25,14 @@ e2 = tk.Entry()
 e2.grid(row=2, column=1)
 
 # create button
-button = tk.Button(root, text='Calculate !',command=areaCycle).grid(row=4, column=1)
+button = tk.Button(root, text='Calculate !',command=area_cal).grid(row=4, column=1)
 
 # label result
 result = Label(root, text='')
 result.grid(row=3, column=1)
 
 # --------------------------------
-def areaCycle():
+def area_cal():
     #global result
     width = int(e1.get())
     height = int(e2.get())
