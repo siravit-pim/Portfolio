@@ -19,3 +19,4 @@ My storage for permanence knowledge
 
 
 ## Dashboard
+- [x] [demo_Sales](https://lookerstudio.google.com/s/iEAAzRR-xKw) - with `Data Studio`
