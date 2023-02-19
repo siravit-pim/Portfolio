@@ -10,6 +10,8 @@ My storage for permanence knowledge
 - [x] [Create_QRCode](Python/build_QRCode.py)
 - [x] [Convert Clip to MP4 file](Python/Youtube_to_MP4.py) or [to MP3 file](Python/Youtube_to_MP3.py) - Covert clip in Youtube to `MP4` or `MP3` file
 - [x] [Windows - Convert Clip to MP4 file](Python/WindowsConvertMP4.py) - Covert clip in Youtube to `MP4` with `Tkinter` and `pytube`
+- [ ] PDF
+- [ ] AI Personal Assistant
 
 
 
