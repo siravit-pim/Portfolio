@@ -4,33 +4,7 @@ installed.packages("rvest")
 library(tidyverse)
 library(rvest) # scrap data from internet
 
-# 1 - IMBD  - Movie
-url = "https://www.imdb.com/search/title/?groups=top_100&sort=user_rating,desc"
-imdb = read_html(url)
-
-titles = imdb %>%
-  html_nodes("h3.lister-item-header") %>%
-    html_text2()
-
-ratings = imdb %>%
-  html_nodes("div.ratings-imdb-rating") %>%
-  html_text2() %>%
-  as.numeric()
-# ratings[1:10]
-
-vote = imdb %>%
-  html_nodes("p.sort-num_votes-visible") %>%
-  html_text2()
-
-df = data.frame(
-  titles,
-  ratings,
-  vote
-)
-head(df) # View(df)
-
-## ---------------------------------
-# 2 - Specphone
+# Specphone
 phone = read_html("https://specphone.com/Realme-10-Pro-.html#specification")
 
 phone1 = phone %>%
