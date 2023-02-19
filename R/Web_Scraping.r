@@ -4,7 +4,7 @@ installed.packages("rvest")
 library(tidyverse)
 library(rvest) # scrap data from internet
 
-# IMBD  - Movie
+# 1 - IMBD  - Movie
 url = "https://www.imdb.com/search/title/?groups=top_100&sort=user_rating,desc"
 imdb = read_html(url)
 
@@ -30,7 +30,7 @@ df = data.frame(
 head(df) # View(df)
 
 ## ---------------------------------
-# Specphone
+# 2 - Specphone
 phone = read_html("https://specphone.com/Realme-10-Pro-.html#specification")
 
 phone1 = phone %>%
