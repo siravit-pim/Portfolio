@@ -1,5 +1,4 @@
-# Second Brain
-My storage knowledge
+# My Permanent information storeage.
 
 ## Python
 - [x] [AI Personal Assistant](Python/SpeechRecognition.py) (Speech Recognition) - using libraries `pyttsx3` is a text-to-speech conversion and `PyAudio` for PortAudio
