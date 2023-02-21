@@ -1,4 +1,4 @@
-# My Permanent information storeage.
+# My Permanent information storage.
 
 ## Python
 - [x] [AI Personal Assistant](Python/SpeechRecognition.py) (Speech Recognition) - using libraries `pyttsx3` is a text-to-speech conversion and `PyAudio` for PortAudio
