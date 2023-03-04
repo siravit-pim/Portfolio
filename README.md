@@ -20,5 +20,6 @@
 - [x] [Sentiment Analysis](https://rpubs.com/zkiddy/1000402) - using `syuzhet` library for make sentiment score from comment in Youtube, Positive/Negative/Neutral 
 
 
-## Dashboard
-- [x] [demo_Sales](https://lookerstudio.google.com/s/iEAAzRR-xKw) - with `Data Studio`
+## Dashboard Tourism.pdf
+- [x] [Tourism](Dashboard/Tourism.pdf) - Mini project about tourism come in Thailand compare with Chiang Rai county using `Power BI Desktop`
+- [x] [demoSales](https://lookerstudio.google.com/s/iEAAzRR-xKw) - Mini project about sales (mockup_data) with `Data Studio`
