@@ -1,6 +1,7 @@
 # My Permanent information storage.
 
 ## Python
+- [x] [Pandas 80% of tasks](Python/pandas_review0.80.ipynb) - review `Pandas` according with guide [20 Pandas Functions for 80% of your Data Science Tasks](https://levelup.gitconnected.com/20-pandas-functions-for-80-of-your-data-science-tasks-b610c8bfe63c) 
 - [x] [AI Personal Assistant](Python/SpeechRecognition.py) (Speech Recognition) - using libraries `pyttsx3` is a text-to-speech conversion and `PyAudio` for PortAudio
 - [x] Face Detection [Camera](Python/Face_Dectection_Online.py) & [Image](Python/Face_Dectection_Offile.py) - Face Dectection using `OpenCV-Python` is a provides a real-time optimized Computer Vision library
 - [x] PDF Editor File [Rotation](Python/PDF/Rotation.py) & [Merging](Python/PDF/Merging.py) & [Splitting](Python/PDF/Splitting.py) & [Watermark](Python/PDF/Watermark.py) & [Text Extraction](Python/PDF/Text_Extraction.py) & [PDF to Docx](Python/PDF/PDF_to_docx.py) - using `PyPDF4` A Pure-Python library built as a PDF toolkit
