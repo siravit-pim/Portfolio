@@ -22,5 +22,5 @@
 
 
 ## Dashboard Tourism.pdf
-- [x] [Tourism](Dashboard/Tourism.pdf) - Mini project about tourism come in Thailand compare with Chiang Rai county using `Power BI Desktop`
+- [x] [Tourism](Dashboard/Tourism.pdf) - Mini project about tourism come in Thailand compare with Chiang Rai county using `Power BI`
 - [x] [demoSales](https://lookerstudio.google.com/s/iEAAzRR-xKw) - Mini project about sales (mockup_data) with `Data Studio`
