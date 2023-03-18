@@ -21,6 +21,10 @@
 - [x] [Sentiment Analysis](https://rpubs.com/zkiddy/1000402) - using `syuzhet` library for make sentiment score from comment in Youtube, Positive/Negative/Neutral 
 
 
-## Dashboard Tourism.pdf
+## Dashboard
 - [x] [Tourism](Dashboard/Tourism.pdf) - Mini project about tourism come in Thailand compare with Chiang Rai county using `Power BI`
 - [x] [demoSales](https://lookerstudio.google.com/s/iEAAzRR-xKw) - Mini project about sales (mockup_data) with `Looker Studio`
+
+## SQL [see more](https://github.com/siravit-pim/SAP_Knowledge)
+- [x] [Report](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/APFull.sql) - information about 3 module in `SAP B1` for assigned, Sale, Purchase, Inventory
+- [x] [InformationBank](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/forBank.sql) - information Business Partner for send to Bank in `SAP B1`
