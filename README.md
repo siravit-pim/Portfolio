@@ -12,7 +12,7 @@
 - [x] [Generate Password](Python/Generate_Password.py) - Generate Password from Character, Number and Punctuation with librraries `random` and `string`
 - [x] [Generate QR Code](Python/build_QRCode.py) - using `qrcode` A QR Code image generator
 - [x] Convert Video in Youtube to [MP4](Python/Youtube_to_MP4.py) file or [MP3](Python/Youtube_to_MP3.py) file - Covert vedio in Youtube to `MP4` file using `pytube` library for downloading Youtube videos and `moviepy` library for video editing to `MP3` file
-
+- [x] [House Pricing](Python/HousePricing.ipynb) - Estimate House pricing test with `Linear Regression` model
 
 
 
