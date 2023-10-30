@@ -29,5 +29,5 @@
 ## SQL [see more](https://github.com/siravit-pim/SAP_Knowledge)
 - [x] [Report](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/APFull.sql) - information about 3 module in `SAP B1` for assigned, Sale, Purchase, Inventory
 - [x] [InformationBank](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/forBank.sql) - information Business Partner for send to Bank in `SAP B1`
-- [ ] [Covid19Vaccince](https://github.com/siravit-pim/Portfolio/SQL/Covid19Vaccince.sql) - `Project` Build Model and database for test `SQLite` syntax and using `SQlite Studio`, dataset from [Data on COVID-19](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
+- [ ] [VaccinationCOVID-19](https://github.com/siravit-pim/Portfolio/SQL/Covid19Vaccince.sql) - `Project` Build Model and database for test `SQLite` syntax and using `SQlite Studio`, dataset from [Vac_COVID-19](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
 
