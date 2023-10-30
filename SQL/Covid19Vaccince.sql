@@ -1,5 +1,61 @@
 -- Source : https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 
+-- This table does not define a primary key (PK) because it doesn't have unique values, and SQLite doesn't support primary keys with more than two columns.
+-- The "source_url" column cannot be defined as a foreign key (FK) because the "Source" table does not have a primary key (PK).
+-- While the "location" column could be defined as a foreign key (FK), it's not necessary because, in practice, it can join with another table even if that table doesn't define it as a primary or foreign key. Additionally, this column should be part of a compound key along with the "date" column.
+CREATE TABLE Vaccinations (
+    location                   TEXT,
+    date                       TEXT,
+    total_vaccinations         INTEGER,
+    people_vaccinated          INTEGER,
+    people_fully_vaccinated    INTEGER,
+    total_boosters             INTEGER,
+    daily_vaccinations         INTEGER,
+    daily_people_vaccinated    INTEGER,
+    vaccine                    TEXT,
+    source_url                 TEXT
+);
+
+-- ###################################
+
+-- This table does not define a primary key (PK) because it doesn't have unique values, and SQLite doesn't support primary keys with more than two columns.
+CREATE TABLE VaccinationsManufacturer (
+    location            TEXT,
+    date                TEXT,
+    vaccine             TEXT,
+    total_vaccinations  INTEGER
+);
+
+-- ###################################
+
+-- This table does not define a primary key (PK) because it doesn't have unique values, and SQLite doesn't support primary keys with more than two columns.
+CREATE TABLE VaccinationsUSstate (
+    location          TEXT,
+    date              TEXT,
+    total_distributed INTEGER,
+    share_doses_used  REAL
+);
+
+-- ###################################
+
+-- The "source_url" column cannot be defined as a foreign key (FK) because the "Source" table does not have a primary key (PK).
+CREATE TABLE Locations (
+    location              TEXT PRIMARY KEY,
+    vaccines              TEXT,
+    last_observation_date TEXT,
+    source_url            TEXT 
+);
+
+-- ###################################
+
+-- This table does not have a primary key (PK) because both "source_url" and "source_name" columns may still contain duplicate values, and removing duplicates may not be possible.
+CREATE TABLE Source (
+    source_url  TEXT,
+    source_name TEXT
+);
+
+-- ###################################
+
 /* Task 1 List the country that has more than average number of people taking vaccines in each observation day
 recorded in the dataset among all countries. Each row in the result set must have the following structure. */
 -- Create a Common Table Expression (CTE) named "AverageDailyVaccinations."
