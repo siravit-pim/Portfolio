@@ -28,5 +28,5 @@
 
 ## SQL [see more](https://github.com/siravit-pim/SAP_Knowledge)
 - [x] [Report](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/APFull.sql) - information about 3 modules in `SAP B1`, AP, AR, Inventory
-- [x] [COVID-19 vaccinations](https://github.com/siravit-pim/Portfolio/blob/main/SQL/Covid19Vaccince_Model.pdf) - I got the raw data, then proceed to build models and databases for analysis using `SQLite` syntax and utilizing `SQLite Studio` for the project, dataset from [Our World In Data](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
+- [x] [COVID-19 vaccinations](https://github.com/siravit-pim/Portfolio/blob/main/SQL/Covid19Vaccince_Model.pdf) - Build models and databases for analysis using `SQLite` syntax and utilizing `SQLite Studio` for the project, dataset from [Our World In Data](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
 
