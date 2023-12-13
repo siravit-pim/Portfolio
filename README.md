@@ -27,7 +27,6 @@
 - [x] [demoSales](https://lookerstudio.google.com/s/iEAAzRR-xKw) - Mini project about sales (mockup_data) with `Looker Studio`
 
 ## SQL [see more](https://github.com/siravit-pim/SAP_Knowledge)
-- [x] [Report](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/APFull.sql) - information about 3 module in `SAP B1` for assigned, Sale, Purchase, Inventory
-- [x] [InformationBank](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/forBank.sql) - information Business Partner for send to Bank in `SAP B1`
-- [x] [VaccinationCOVID-19](https://github.com/siravit-pim/Portfolio/blob/main/SQL/Covid19Vaccince_Model.pdf) - `Project` Build Model and database for test `SQLite` syntax and using `SQlite Studio`, dataset from [Vac_COVID-19](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
+- [x] [Report](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/APFull.sql) - information about 3 modules in `SAP B1`, AP, AR, Inventory
+- [x] [COVID-19 vaccinations](https://github.com/siravit-pim/Portfolio/blob/main/SQL/Covid19Vaccince_Model.pdf) - I got the raw data, then proceed to build models and databases for analysis using `SQLite` syntax and utilizing `SQLite Studio` for the project, dataset from [Our World In Data](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
 
