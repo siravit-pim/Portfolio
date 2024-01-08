@@ -375,7 +375,7 @@ WHERE
 
 --=====================================================
 
--- 5. Find the lowest total cost per square meter.
+-- 5. Retrieve the usage with the minimum cost per square meter.
 select * 
 from xxxxx.vw_sqmstation 
 order by totalcost_sqm 
@@ -383,7 +383,7 @@ limit 1
 
 --=====================================================
 
--- 6 Find the lowest tester gave score in seed statons.
+-- 6 Retrieve testers with the lowest scores.
 SELECT *
 FROM xxxxx.vw_checktester 
 WHERE tester_id = (
@@ -396,7 +396,7 @@ WHERE tester_id = (
 
 --=====================================================
 
--- 7 find the period best score in size, moisture, genetic purity and carbon condition.
+-- 7 Retrieve the period with the highest score.
 -- Retrieve all records from the view 'xxxxx.vw_dayscore' where the 'totalscore' is equal to the maximum 'totalscore' in the same view
 SELECT * 
 FROM xxxxx.vw_dayscore
