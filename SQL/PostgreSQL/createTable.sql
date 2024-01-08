@@ -1,7 +1,11 @@
 BEGIN;
+DROP SCHEMA IF EXISTS xxxxx CASCADE;
+
+CREATE SCHEMA xxxxx;
+
 
 -- Creating the 'post_harvest_storage' table with columns and constraints
-CREATE TABLE IF NOT EXISTS ucessuv.post_harvest_storage (
+CREATE TABLE IF NOT EXISTS xxxxx..post_harvest_storage (
     post_harvest_storage_id serial NOT NULL,
     post_harvest_storage_name text NOT NULL,
     post_harvest_storage_type text NOT NULL,
@@ -10,13 +14,13 @@ CREATE TABLE IF NOT EXISTS ucessuv.post_harvest_storage (
 
 -- Adding a geometry column 'location' to 'post_harvest_storage' table
 SELECT AddGeometryColumn(
-    'ucessuv', 'post_harvest_storage', 'location', 27700, 'geometry', 3
+    'xxxxx.', 'post_harvest_storage', 'location', 27700, 'geometry', 3
 );
 
 --=============================
 
 -- Creating the 'seed_storage' table with columns and constraints
-CREATE TABLE IF NOT EXISTS ucessuv.seed_storage (
+CREATE TABLE IF NOT EXISTS xxxxx..seed_storage (
     seed_storage_id serial NOT NULL,
     post_harvest_storage_id serial NOT NULL,
     seed_storage_name text NOT NULL,
@@ -25,26 +29,26 @@ CREATE TABLE IF NOT EXISTS ucessuv.seed_storage (
 
 -- Adding a geometry column 'location' to 'seed_storage' table
 SELECT AddGeometryColumn(
-    'ucessuv', 'seed_storage', 'location', 27700, 'geometry', 3
+    'xxxxx.', 'seed_storage', 'location', 27700, 'geometry', 3
 );
 
 --=============================
 
 -- Creating the 'seed_stations' table with columns and constraints
-CREATE TABLE IF NOT EXISTS ucessuv.seed_stations (
+CREATE TABLE IF NOT EXISTS xxxxx..seed_stations (
     seed_station_id serial NOT NULL,
     seed_storage_id serial NOT NULL
 );
 
 -- Adding a geometry column 'location' to 'seed_stations' table
 SELECT AddGeometryColumn(
-    'ucessuv', 'seed_stations', 'location', 27700, 'geometry', 2
+    'xxxxx.', 'seed_stations', 'location', 27700, 'geometry', 2
 );
 
 --=============================
 
 -- Creating the 'seed_storage_condition' table with columns and constraints
-CREATE TABLE IF NOT EXISTS ucessuv.seed_storage_condition (
+CREATE TABLE IF NOT EXISTS xxxxx..seed_storage_condition (
     seed_storage_condition_id serial NOT NULL,
     seed_storage_id serial NOT NULL,
     temperature_condition serial NOT NULL,
@@ -55,7 +59,7 @@ CREATE TABLE IF NOT EXISTS ucessuv.seed_storage_condition (
 --=============================
 
 -- Creating the 'seed_stations_condition' table with columns and constraints
-CREATE TABLE IF NOT EXISTS ucessuv.seed_stations_condition (
+CREATE TABLE IF NOT EXISTS xxxxx..seed_stations_condition (
     seed_stations_condition_id serial NOT NULL,
     seed_station_id serial NOT NULL,
     size_condition serial NOT NULL,
@@ -68,7 +72,7 @@ CREATE TABLE IF NOT EXISTS ucessuv.seed_stations_condition (
 --=============================
 
 -- Creating the 'testers' table with columns and constraints
-CREATE TABLE IF NOT EXISTS ucessuv.testers (
+CREATE TABLE IF NOT EXISTS xxxxx..testers (
     tester_id serial NOT NULL,
     tester_name text NOT NULL
 );
@@ -76,14 +80,14 @@ CREATE TABLE IF NOT EXISTS ucessuv.testers (
 --=============================
 
 -- Creating the 'condition_indicator' table with columns and constraints
-CREATE TABLE IF NOT EXISTS ucessuv.condition_indicator (
+CREATE TABLE IF NOT EXISTS xxxxx..condition_indicator (
     condition_indicator_id serial NOT NULL,
     condition_indicator_description text NOT NULL
 );
 
 --=============================
 
-CREATE TABLE IF NOT EXISTS ucessuv.parameters (
+CREATE TABLE IF NOT EXISTS xxxxx..parameters (
     parameter_id serial NOT NULL,
     parameter_type text NOT NULL,
     parameter_name text NOT NULL,
