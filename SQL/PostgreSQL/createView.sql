@@ -149,7 +149,7 @@ GROUP BY
 
 --====================================
 
--- table ref:5 / This SQL query computes the ratio between the areas of seed storage facilities and seed station locations, while aggregating the costs for water, electricity, and the average room cost. It incorporates specific criteria for each area:
+-- table ref:5 / This SQL query calculates the ratio between the areas of seed storage facilities and seed station locations, while aggregating the costs for water, electricity, and the average room cost. It incorporates specific criteria for each area
 
 -- Drop the view if it exists to avoid conflicts
 DROP VIEW IF EXISTS xxxxx.vw_sqmstation CASCADE;
@@ -205,7 +205,7 @@ WHERE (s4.condition_indicator_id = 1 or s2.size_condition = 1 OR s2.moisture_con
 
 --====================================
 
--- table ref:6 / Evaluate seed stations and testers based on three conditions, calculate the total score for each, and identify testers with scores below the average
+-- table ref:6 / This is a check on testers who may have recorded errors in seed stations by taking the results of three factors: size, moisture, genetic purity, and finding the average. Then, apply a condition where the average score is less than the overall average. This will yield a list of testers who have given scores below the average, which may indicate abnormalities.
 -- Drop the view if it exists to avoid conflicts
 DROP VIEW IF EXISTS xxxxx.vw_checktester CASCADE;
 CREATE VIEW xxxxx.vw_checktester AS (
@@ -306,7 +306,7 @@ WHERE
 
 --====================================
 
--- ref table: 7 /Calculate scores for seed stations based on size, moisture, genetic purity, seed carbon, and room carbon conditions
+-- ref table: 7 / This query aims to find the time intervals between the beginning, middle, and end of the month to determine which period has the highest score. The calculation is based on five conditions: size, moisture, genetic purity, seed carbon, and room carbon.
 -- Utilize two levels of Common Table Expressions (CTEs) for clarity and modularity
 DROP VIEW IF EXISTS xxxxx.vw_dayscore CASCADE;
 CREATE VIEW xxxxx.vw_dayscore AS (
