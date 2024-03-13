@@ -22,10 +22,11 @@
 
 
 ## Dashboard
-- [x] [Tourism](Dashboard/Tourism.pdf) - analytics about tourism come in Thailand compare with Chiang Rai county using `Power BI`
-- [x] [demoSales](https://lookerstudio.google.com/s/iEAAzRR-xKw) - analytics about sales value mockup each country with `Looker Studio`
-
+- [x] [Power BI](Dashboard/Tourism.pdf) - Analyze tourism data for Thailand and compare it with Chiang Rai county's statistics
+- [x] [Looker Studio](https://lookerstudio.google.com/s/iEAAzRR-xKw) - Generate sales value analytics mockup for each country.
+- [x] [Tableau](https://public.tableau.com/views/NetflixDashboard_16752420584000/Netflix_Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link) - Create a dashboard illustrating Netflix content trends from 2008 to 2020 from [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 ## SQL [*see more*](https://github.com/siravit-pim/SQL-SAP)
-- [x] [Report](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/APFull.sql) - information about 3 modules in `SAP B1`, AP, AR, Inventory
-- [x] [COVID-19 vaccinations](SQL/SQLite/Covid19Vac) - build models and databases for analysis using `SQLite` syntax and utilizing `SQLite Studio` for the project, dataset from [*Our World In Data*](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
+- [x] [SQL Server](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/APFull.sql) - Information about 3 modules in `SAP B1`, AP, AR, Inventory
+- [x] [PostgreSQL](https://github.com/siravit-pim/Portfolio/blob/main/SQL/PostgreSQL/SeedProcessing/SeedProcessingModel.pdf) - I'll design a `PostgreSQL` schema using `PostGIS` Post-Harvest seed processing for Propagation Decision Making in `pgAdmin4`
+- [x] [SQLite](https://github.com/siravit-pim/Portfolio/blob/main/SQL/SQLite/Covid19Vac/Covid19Vaccince_Model.pdf) - I'll design a `SQLite` database model for analyzing COVID-19 vaccinations, utilizing `SQLite Studio` for the project, dataset from [*Our World In Data*](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
 
