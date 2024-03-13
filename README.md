@@ -30,3 +30,9 @@
 - [x] [PostgreSQL](https://github.com/siravit-pim/Portfolio/blob/main/SQL/PostgreSQL/SeedProcessing/SeedProcessingModel.pdf) - I'll design a `PostgreSQL` schema using `PostGIS` Post-Harvest seed processing for Propagation Decision Making in `pgAdmin4`
 - [x] [SQLite](https://github.com/siravit-pim/Portfolio/blob/main/SQL/SQLite/Covid19Vac/Covid19Vaccince_Model.pdf) - I'll design a `SQLite` database model for analyzing COVID-19 vaccinations, utilizing `SQLite Studio` for the project, dataset from [*Our World In Data*](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
 
+
+
+**Badge** <br>
+
+<img src='https://images.credly.com/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png' width='250'> </a>
+<img src='https://media.badgr.com/uploads/badges/assertion-Y7IekyR1QxKrlbYqyoKwEg.png' width='250'>
