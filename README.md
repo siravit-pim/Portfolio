@@ -27,5 +27,5 @@
 
 ## SQL [*see more*](https://github.com/siravit-pim/SQL-SAP)
 - [x] [Report](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/APFull.sql) - information about 3 modules in `SAP B1`, AP, AR, Inventory
-- [x] [COVID-19 vaccinations](SQL/Covid19Vac) - build models and databases for analysis using `SQLite` syntax and utilizing `SQLite Studio` for the project, dataset from [*Our World In Data*](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
+- [x] [COVID-19 vaccinations](SQL/SQLite/Covid19Vac) - build models and databases for analysis using `SQLite` syntax and utilizing `SQLite Studio` for the project, dataset from [*Our World In Data*](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
 
