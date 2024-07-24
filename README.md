@@ -8,7 +8,7 @@
 - [x] PDF Editor File [Rotation](Python/PDF/Rotation.py) & [Merging](Python/PDF/Merging.py) & [Splitting](Python/PDF/Splitting.py) & [Watermark](Python/PDF/Watermark.py) & [Text Extraction](Python/PDF/Text_Extraction.py) & [PDF to Docx](Python/PDF/PDF_to_docx.py) - using `PyPDF4` A Pure-Python library built as a PDF toolkit
 - [x] Text to Speed [Online](Python/Text_to_speed_online.py) & [Offline](Python/Text_to_speed_offline.py) - The online using libraries `playsound` is a cross platform, single function module with no dependencies for playing sounds and `gTTS` is a interface with Google Translate's text-to-speech API.
 - [x] [Web Scraping](Python/Web_Scraping-IMDB.ipynb) - extract movie data from IMDB
-- [x] [APIexchangeRate](Python/APIexchangeRate.py) - data from Bank of Thailand
+- [x] [API](Python/APIexchangeRate.py) - extract exchange rate data from Bank of Thailand using API
 - [x] [Build basic GUI](Python/Tkinter_Basic.py) - using `tkinter` is the standard Python interface to the Tcl/Tk GUI toolkit.
 - [x] [Generate Password](Python/Generate_Password.py) - Generate Password from Character, Number and Punctuation with librraries `random` and `string`
 - [x] [Generate QR Code](Python/build_QRCode.py) - using `qrcode` A QR Code image generator
