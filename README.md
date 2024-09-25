@@ -1,8 +1,8 @@
 # My Permanent information storage.
 
 ## Python
-- [x] [Pandas 80%](Python/pandas_review0.80.ipynb) - review `Pandas` according with [guide](https://levelup.gitconnected.com/20-pandas-functions-for-80-of-your-data-science-tasks-b610c8bfe63c) 20 Pandas Functions for 80% of Data Science Tasks
-- [x] [Extraction](Python/SaleTarget.ipynb) - Extracting Data from Excel and Loading into Databases (2 DB)
+- [x] [Pandas 80%](Python/pandas_review0.80.ipynb) - review lib `Pandas` Pandas Functions for 80% of Data Science Tasks
+- [x] [ETL(Pandas)](Python/SaleTarget.ipynb) - Extracting Data from Excel and Loading into Databases (2 DB) with `Pandas`
 - [x] [Speech Recognition](Python/SpeechRecognition.py) - using libraries `pyttsx3` is a text-to-speech conversion and `PyAudio` for PortAudio
 - [x] Face Detection [Camera](Python/Face_Dectection_Online.py) & [Image](Python/Face_Dectection_Offile.py) - using `OpenCV-Python` is a provides a real-time optimized Computer Vision library
 - [x] PDF Editor File [Rotation](Python/PDF/Rotation.py) & [Merging](Python/PDF/Merging.py) & [Splitting](Python/PDF/Splitting.py) & [Watermark](Python/PDF/Watermark.py) & [Text Extraction](Python/PDF/Text_Extraction.py) & [PDF to Docx](Python/PDF/PDF_to_docx.py) - using `PyPDF4` A Pure-Python library built as a PDF toolkit
