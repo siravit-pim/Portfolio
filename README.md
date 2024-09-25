@@ -26,15 +26,22 @@
 - [x] [Power BI](Dashboard/Tourism.pdf) - Analyze tourism data for Thailand and compare it with Chiang Rai county's statistics
 - [x] [Looker Studio](https://lookerstudio.google.com/s/iEAAzRR-xKw) - Generate sales value analytics mockup for each country.
 - [x] [Tableau](https://public.tableau.com/views/NetflixDashboard_16752420584000/Netflix_Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link) - Create a dashboard illustrating Netflix content trends from 2008 to 2020 from [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+
+      
 ## SQL [*see more*](https://github.com/siravit-pim/SQL-SAP)
 - [x] [SQL Server](https://github.com/siravit-pim/SAP_Knowledge/blob/main/Reports/APFull.sql) - Information about 3 modules in `SAP B1`, AP, AR, Inventory
-- [x] [PostgreSQL](https://github.com/siravit-pim/Portfolio/blob/main/SQL/PostgreSQL/SeedProcessing/SeedProcessingModel.pdf) - I'll design a `PostgreSQL` schema using `PostGIS` Post-Harvest seed processing for Propagation Decision Making in `pgAdmin4`
-- [x] [SQL_Recursive](https://github.com/siravit-pim/Portfolio/blob/main/SQL/PostgreSQL/Resursive/Recursive_SQL.png) - Hierarchical data with Recursive CTEs
-- [x] [SQLite](https://github.com/siravit-pim/Portfolio/blob/main/SQL/SQLite/Covid19Vac/Covid19Vaccince_Model.pdf) - I'll design a `SQLite` database model for analyzing COVID-19 vaccinations, utilizing `SQLite Studio` for the project, dataset from [*Our World In Data*](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
+- [x] [PostgreSQL](https://github.com/siravit-pim/Portfolio/blob/main/SQL/PostgreSQL/SeedProcessing/SeedProcessingModel.pdf) - I'll design a `PostgreSQL` schema using `PostGIS` in `pgAdmin4`
+- [x] [SQL Recursive](https://github.com/siravit-pim/Portfolio/blob/main/SQL/PostgreSQL/Resursive/Recursive_SQL.png) - Hierarchical data with Recursive CTEs
+- [x] [SQLite](https://github.com/siravit-pim/Portfolio/blob/main/SQL/SQLite/Covid19Vac/Covid19Vaccince_Model.pdf) - I design a `SQLite` database model for analyzing COVID-19 vaccinations in `SQLite Studio`. dataset from [*Our World In Data*](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
 
 
 
 **Badge** <br>
 
-<img src='https://images.credly.com/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png' width='250'> </a>
-<img src='https://media.badgr.com/uploads/badges/assertion-Y7IekyR1QxKrlbYqyoKwEg.png' width='250'>
+<a href="https://www.credly.com/badges/31fcc590-a885-475f-a277-9a8e5c1eda56/linked_in?t=s63l7t">
+  <img src='https://media.badgr.com/uploads/badges/assertion-Y7IekyR1QxKrlbYqyoKwEg.png' width='250'>
+<a href="https://badgr.com/public/assertions/Y7IekyR1QxKrlbYqyoKwEg?identity__email=siravit.pim@gmail.com">
+  <img src='https://images.credly.com/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png' width='250'> </a>
+<a href="https://learn.microsoft.com/api/credentials/share/en-us/siravit-pim/D5CAC2105C2592C?sharingId=F3D1DE12E620E53D">
+    <img src='https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main' width='250'> </a>
+
