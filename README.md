@@ -6,12 +6,12 @@
 - [x] [Web Scraping](Python/Web_Scraping-IMDB.ipynb) - extract movie data from IMDB
 - [x] [API](Python/API_ExchangeRate.ipynb) - extract exchange rate data from Bank of Thailand using API
 - [x] [Generate Password](Python/GeneratePass.ipynb) - Generate Password from Character, Number and Punctuation with librraries `random` and `string`
-
+- [x] [Generate QR Code](Python/GenerateQRCode.ipynb) - using `qrcode` A QR Code image generator
+- [x] [Convert Video in Youtube](Python/Youtube_to_MP4.py) - to `MP4` file using `pytube` and `moviepy` librarys for video editing to `MP3` file
 - [x] PDF Editor File [Rotation](Python/PDF/Rotation.py) & [Merging](Python/PDF/Merging.py) & [Splitting](Python/PDF/Splitting.py) & [Watermark](Python/PDF/Watermark.py) & [Text Extraction](Python/PDF/Text_Extraction.py) & [PDF to Docx](Python/PDF/PDF_to_docx.py) - using `PyPDF4` A Pure-Python library built as a PDF toolkit
 
 
-- [x] [Generate QR Code](Python/GenerateQRCode.ipynb) - using `qrcode` A QR Code image generator
-- [x] Convert Video in Youtube to [MP4](Python/Youtube_to_MP4.py) file or [MP3](Python/Youtube_to_MP3.py) file - Covert vedio in Youtube to `MP4` file using `pytube` library for downloading Youtube videos and `moviepy` library for video editing to `MP3` file
+
 
 --------------------------
 - [x] Text to Speed [Online](Python/Text_to_speed_online.py) & [Offline](Python/Text_to_speed_offline.py) - The online using libraries `playsound` is a cross platform, single function module with no dependencies for playing sounds and `gTTS` is a interface with Google Translate's text-to-speech API.
