@@ -7,14 +7,14 @@
 - [x] [API](Python/API_ExchangeRate.ipynb) - extract exchange rate data from Bank of Thailand using API
 - [x] [Generate Password](Python/GeneratePass.ipynb) - Generate Password from Character, Number and Punctuation with librraries `random` and `string`
 - [x] [Generate QR Code](Python/GenerateQRCode.ipynb) - using `qrcode` A QR Code image generator
-- [x] [Convert Video in Youtube](VedioYT_toMP4.ipynb) - to `MP4` file using `pytube` and `moviepy` librarys for video editing to `MP3` file
+- [x] [Convert Video in Youtube](Python/VedioYT_toMP4.ipynb) - to `MP4` file using `pytube` and `moviepy` librarys for video editing to `MP3` file
 - [x] PDF Editor File [Rotation](Python/PDF/Rotation.py) & [Merging](Python/PDF/Merging.py) & [Splitting](Python/PDF/Splitting.py) & [Watermark](Python/PDF/Watermark.py) & [Text Extraction](Python/PDF/Text_Extraction.py) & [PDF to Docx](Python/PDF/PDF_to_docx.py) - using `PyPDF4` A Pure-Python library built as a PDF toolkit
 
 
 
 
 --------------------------
-- [x] [Text to Speech](TextToSpeech.ipynb) - The online using libraries `playsound` is a cross platform, single function module with no dependencies for playing sounds and `gTTS` is a interface with Google Translate's text-to-speech API.
+- [x] [Text to Speech](Python/TextToSpeech.ipynb) - The online using libraries `playsound` is a cross platform, single function module with no dependencies for playing sounds and `gTTS` is a interface with Google Translate's text-to-speech API.
 - [x] [Speech Recognition](Python/SpeechRecognition.py) - using libraries `pyttsx3` is a text-to-speech conversion and `PyAudio` for PortAudio
 - [x] Face Detection [Camera](Python/Face_Dectection_Online.py) & [Image](Python/Face_Dectection_Offile.py) - using `OpenCV-Python` is a provides a real-time optimized Computer Vision library
 
